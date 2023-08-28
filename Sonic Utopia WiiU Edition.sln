@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonic Utopia WiiU Edition", "Assembly-CSharp-firstpass.csproj", "{8D4C4101-588F-80D7-D02B-9B48EE5A0AF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sonic Utopia WiiU Edition", "Assembly-CSharp.csproj", "{A145F163-0870-C7DD-60A2-D85C3796B98A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D4C4101-588F-80D7-D02B-9B48EE5A0AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D4C4101-588F-80D7-D02B-9B48EE5A0AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D4C4101-588F-80D7-D02B-9B48EE5A0AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D4C4101-588F-80D7-D02B-9B48EE5A0AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A145F163-0870-C7DD-60A2-D85C3796B98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A145F163-0870-C7DD-60A2-D85C3796B98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A145F163-0870-C7DD-60A2-D85C3796B98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A145F163-0870-C7DD-60A2-D85C3796B98A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
