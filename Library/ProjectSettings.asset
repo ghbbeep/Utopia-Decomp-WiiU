@@ -4,14 +4,14 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: 0d06b191a3eea714fa2e8d9587dd28f8
+  productGUID: 9110cf37692cc014596c4de73823b14c
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Sonic Utopia WiiU Edition
+  productName: Sonic Utopia
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -47,7 +47,7 @@ PlayerSettings:
   defaultScreenWidthWeb: 960
   defaultScreenHeightWeb: 600
   m_StereoRenderingPath: 0
-  m_ActiveColorSpace: 0
+  m_ActiveColorSpace: 1
   m_MTRendering: 1
   m_MobileMTRendering: 0
   m_StackTraceTypes: 010000000100000001000000010000000100000001000000
@@ -75,7 +75,7 @@ PlayerSettings:
   hideHomeButton: 0
   submitAnalytics: 1
   usePlayerLog: 1
-  bakeCollisionMeshes: 0
+  bakeCollisionMeshes: 1
   forceSingleInstance: 0
   resizableWindow: 0
   useMacAppStoreValidation: 0
@@ -87,7 +87,7 @@ PlayerSettings:
   xboxEnableKinect: 0
   xboxEnableKinectAutoTracking: 0
   xboxEnableFitness: 0
-  visibleInBackground: 1
+  visibleInBackground: 0
   allowFullscreenSwitch: 1
   graphicsJobMode: 0
   macFullscreenMode: 2
@@ -114,8 +114,8 @@ PlayerSettings:
   wiiUSupportsClassicController: 0
   wiiUSupportsBalanceBoard: 0
   wiiUSupportsMotionPlus: 0
-  wiiUSupportsProController: 0
-  wiiUAllowScreenCapture: 1
+  wiiUSupportsProController: 1
+  wiiUAllowScreenCapture: 0
   wiiUControllerCount: 0
   m_SupportedAspectRatios:
     4:3: 1
@@ -142,14 +142,20 @@ PlayerSettings:
   useHDRDisplay: 0
   targetPixelDensity: 0
   resolutionScalingMode: 0
-  applicationIdentifier: {}
-  buildNumber: {}
-  AndroidBundleVersionCode: 1
+  applicationIdentifier:
+    Android: com.Company.ProductName
+    Standalone: unity.DefaultCompany.Sonic Utopia
+    Tizen: com.Company.ProductName
+    iOS: com.Company.ProductName
+    tvOS: com.Company.ProductName
+  buildNumber:
+    iOS: 
+  AndroidBundleVersionCode: 0
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
-  AndroidPreferredInstallLocation: 1
+  AndroidPreferredInstallLocation: 0
   aotOptions: 
-  stripEngineCode: 1
+  stripEngineCode: 0
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
   ForceInternetPermission: 0
@@ -157,10 +163,10 @@ PlayerSettings:
   CreateWallpaper: 0
   APKExpansionFiles: 0
   keepLoadedShadersAlive: 0
-  StripUnusedMeshComponents: 0
+  StripUnusedMeshComponents: 1
   VertexChannelCompressionMask:
     serializedVersion: 2
-    m_Bits: 238
+    m_Bits: 0
   iPhoneSdkVersion: 988
   iOSTargetOSVersionString: 
   tvOSSdkVersion: 0
@@ -168,8 +174,8 @@ PlayerSettings:
   tvOSTargetOSVersionString: 
   uIPrerenderedIcon: 0
   uIRequiresPersistentWiFi: 0
-  uIRequiresFullScreen: 1
-  uIStatusBarHidden: 1
+  uIRequiresFullScreen: 0
+  uIStatusBarHidden: 0
   uIExitOnSuspend: 0
   uIStatusBarStyle: 0
   iPhoneSplashScreen: {fileID: 0}
@@ -200,16 +206,16 @@ PlayerSettings:
   iOSLaunchScreenBackgroundColor:
     serializedVersion: 2
     rgba: 0
-  iOSLaunchScreenFillPct: 100
-  iOSLaunchScreenSize: 100
+  iOSLaunchScreenFillPct: 0
+  iOSLaunchScreenSize: 0
   iOSLaunchScreenCustomXibPath: 
   iOSLaunchScreeniPadType: 0
   iOSLaunchScreeniPadImage: {fileID: 0}
   iOSLaunchScreeniPadBackgroundColor:
     serializedVersion: 2
     rgba: 0
-  iOSLaunchScreeniPadFillPct: 100
-  iOSLaunchScreeniPadSize: 100
+  iOSLaunchScreeniPadFillPct: 0
+  iOSLaunchScreeniPadSize: 0
   iOSLaunchScreeniPadCustomXibPath: 
   iOSDeviceRequirements: []
   iOSURLSchemes: []
@@ -217,7 +223,7 @@ PlayerSettings:
   iOSMetalForceHardShadows: 0
   metalEditorSupport: 1
   metalAPIValidation: 1
-  iOSRenderExtraFrameOnPause: 0
+  iOSRenderExtraFrameOnPause: 1
   appleDeveloperTeamID: 
   iOSManualSigningProvisioningProfileID: 
   tvOSManualSigningProvisioningProfileID: 
@@ -227,22 +233,26 @@ PlayerSettings:
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
-  AndroidTVCompatibility: 1
-  AndroidIsGame: 1
-  androidEnableBanner: 1
-  m_AndroidBanners:
-  - width: 320
-    height: 180
-    banner: {fileID: 0}
+  AndroidTVCompatibility: 0
+  AndroidIsGame: 0
+  androidEnableBanner: 0
+  m_AndroidBanners: []
   androidGamepadSupportLevel: 0
   resolutionDialogBanner: {fileID: 0}
-  m_BuildTargetIcons: []
+  m_BuildTargetIcons:
+  - m_BuildTarget: 
+    m_Icons:
+    - serializedVersion: 2
+      m_Icon: {fileID: 2800000, guid: bbd806d001c4e4941840d3c34b53ef6a, type: 3}
+      m_Width: 128
+      m_Height: 128
+      m_Kind: 0
   m_BuildTargetBatching: []
   m_BuildTargetGraphicsAPIs: []
   m_BuildTargetVRSettings: []
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
-  webPlayerTemplate: APPLICATION:Default
+  webPlayerTemplate: 
   m_TemplateCustomTags: {}
   wiiUTitleID: 0005000011000000
   wiiUGroupID: 00010000
@@ -250,7 +260,7 @@ PlayerSettings:
   wiiUAccountSaveSize: 2048
   wiiUOlvAccessKey: 0
   wiiUTinCode: 0
-  wiiUJoinGameId: 0
+  wiiUJoinGameId: 00000000
   wiiUJoinGameModeMask: 0000000000000000
   wiiUCommonBossSize: 0
   wiiUAccountBossSize: 0
@@ -258,14 +268,15 @@ PlayerSettings:
   wiiUMainThreadStackSize: 3072
   wiiULoaderThreadStackSize: 1024
   wiiUSystemHeapSize: 128
-  wiiUTVStartupScreen: {fileID: 0}
-  wiiUGamePadStartupScreen: {fileID: 0}
+  wiiUTVStartupScreen: {fileID: 2800000, guid: 350dbdb407848a744a8e7344f21432c0, type: 3}
+  wiiUGamePadStartupScreen: {fileID: 2800000, guid: 36281cb4b4cec3e4ca1c602dc306828f,
+    type: 3}
   wiiUDrcBufferDisabled: 0
   wiiUProfilerLibPath: 
   playModeTestRunnerEnabled: 0
-  actionOnDotNetUnhandledException: 1
+  actionOnDotNetUnhandledException: 0
   enableInternalProfiler: 0
-  logObjCUncaughtExceptions: 1
+  logObjCUncaughtExceptions: 0
   enableCrashReportAPI: 0
   cameraUsageDescription: 
   locationUsageDescription: 
@@ -380,14 +391,14 @@ PlayerSettings:
   switchSocketInitializeEnabled: 1
   switchNetworkInterfaceManagerInitializeEnabled: 1
   switchPlayerConnectionEnabled: 1
-  ps4NPAgeRating: 12
+  ps4NPAgeRating: 0
   ps4NPTitleSecret: 
   ps4NPTrophyPackPath: 
-  ps4ParentalLevel: 11
-  ps4ContentID: ED1633-NPXX51362_00-0000000000000000
+  ps4ParentalLevel: 0
+  ps4ContentID: 
   ps4Category: 0
-  ps4MasterVersion: 01.00
-  ps4AppVersion: 01.00
+  ps4MasterVersion: 
+  ps4AppVersion: 
   ps4AppType: 0
   ps4ParamSfxPath: 
   ps4VideoOutPixelFormat: 0
@@ -405,22 +416,22 @@ PlayerSettings:
   ps4ShareOverlayImagePath: 
   ps4PrivacyGuardImagePath: 
   ps4NPtitleDatPath: 
-  ps4RemotePlayKeyAssignment: -1
+  ps4RemotePlayKeyAssignment: 0
   ps4RemotePlayKeyMappingDir: 
   ps4PlayTogetherPlayerCount: 0
-  ps4EnterButtonAssignment: 1
+  ps4EnterButtonAssignment: 0
   ps4ApplicationParam1: 0
   ps4ApplicationParam2: 0
   ps4ApplicationParam3: 0
   ps4ApplicationParam4: 0
   ps4DownloadDataSize: 0
-  ps4GarlicHeapSize: 2048
+  ps4GarlicHeapSize: 0
   ps4ProGarlicHeapSize: 2560
-  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
-  ps4pnSessions: 1
-  ps4pnPresence: 1
-  ps4pnFriends: 1
-  ps4pnGameCustomData: 1
+  ps4Passcode: eaoEiIgxIX4a2dREbbSqWy6yhKIDCdJO
+  ps4pnSessions: 0
+  ps4pnPresence: 0
+  ps4pnFriends: 0
+  ps4pnGameCustomData: 0
   playerPrefsSupport: 0
   restrictedAudioUsageRights: 0
   ps4UseResolutionFallback: 0
@@ -428,7 +439,7 @@ PlayerSettings:
   ps4UseAudio3dBackend: 0
   ps4SocialScreenEnabled: 0
   ps4ScriptOptimizationLevel: 0
-  ps4Audio3dVirtualSpeakerCount: 14
+  ps4Audio3dVirtualSpeakerCount: 0
   ps4attribCpuUsage: 0
   ps4PatchPkgPath: 
   ps4PatchLatestPkgPath: 
@@ -448,7 +459,7 @@ PlayerSettings:
   psp2Splashimage: {fileID: 0}
   psp2NPTrophyPackPath: 
   psp2NPSupportGBMorGJP: 0
-  psp2NPAgeRating: 12
+  psp2NPAgeRating: 0
   psp2NPTitleDatPath: 
   psp2NPCommsID: 
   psp2NPCommunicationsID: 
@@ -462,7 +473,7 @@ PlayerSettings:
   psp2LiveAreaTrialPath: 
   psp2PatchChangeInfoPath: 
   psp2PatchOriginalPackage: 
-  psp2PackagePassword: F69AzBlax3CF3EDNhm3soLBPh71Yexui
+  psp2PackagePassword: yapnxrpMCARCr4zdGc81tBDKsMlaZTXC
   psp2KeystoneFile: 
   psp2MemoryExpansionMode: 0
   psp2DRMType: 0
@@ -475,17 +486,17 @@ PlayerSettings:
   psp2TrophyCommId: 
   psp2TrophyPackagePath: 
   psp2PackagedResourcesPath: 
-  psp2SaveDataQuota: 10240
-  psp2ParentalLevel: 1
-  psp2ShortTitle: Not Set
-  psp2ContentID: IV0000-ABCD12345_00-0123456789ABCDEF
+  psp2SaveDataQuota: 0
+  psp2ParentalLevel: 0
+  psp2ShortTitle: 
+  psp2ContentID: 
   psp2Category: 0
-  psp2MasterVersion: 01.00
-  psp2AppVersion: 01.00
+  psp2MasterVersion: 
+  psp2AppVersion: 
   psp2TVBootMode: 0
-  psp2EnterButtonAssignment: 2
+  psp2EnterButtonAssignment: 0
   psp2TVDisableEmu: 0
-  psp2AllowTwitterDialog: 1
+  psp2AllowTwitterDialog: 0
   psp2Upgradable: 0
   psp2HealthWarning: 0
   psp2UseLibLocation: 0
@@ -517,14 +528,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Sonic Utopia WiiU Edition
+  metroPackageName: 
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
-  metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Sonic Utopia WiiU Edition
+  metroCertificateNotAfter: d0d0d0d0d0d0d0d0
+  metroApplicationDescription: 
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -532,17 +543,16 @@ PlayerSettings:
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
   metroWideTileShowName: 0
-  metroDefaultTileSize: 1
-  metroTileForegroundText: 2
-  metroTileBackgroundColor: {r: 0.13333334, g: 0.17254902, b: 0.21568628, a: 0}
-  metroSplashScreenBackgroundColor: {r: 0.12941177, g: 0.17254902, b: 0.21568628,
-    a: 1}
+  metroDefaultTileSize: 0
+  metroTileForegroundText: 0
+  metroTileBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
+  metroSplashScreenBackgroundColor: {r: 0, g: 0, b: 0, a: 0}
   metroSplashScreenUseBackgroundColor: 0
   platformCapabilities: {}
   metroFTAName: 
   metroFTAFileTypes: []
   metroProtocolName: 
-  metroCompilationOverrides: 1
+  metroCompilationOverrides: 0
   tizenProductDescription: 
   tizenProductURL: 
   tizenSigningProfileName: 
@@ -552,16 +562,16 @@ PlayerSettings:
   tizenDeploymentTargetType: -1
   tizenMinOSVersion: 1
   n3dsUseExtSaveData: 0
-  n3dsCompressStaticMem: 1
-  n3dsExtSaveDataNumber: 0x12345
-  n3dsStackSize: 131072
-  n3dsTargetPlatform: 2
-  n3dsRegion: 7
+  n3dsCompressStaticMem: 0
+  n3dsExtSaveDataNumber: 
+  n3dsStackSize: 0
+  n3dsTargetPlatform: 0
+  n3dsRegion: 0
   n3dsMediaSize: 0
-  n3dsLogoStyle: 3
-  n3dsTitle: GameName
+  n3dsLogoStyle: 0
+  n3dsTitle: 
   n3dsProductCode: 
-  n3dsApplicationId: 0xFF3FF
+  n3dsApplicationId: 
   stvDeviceAddress: 
   stvProductDescription: 
   stvProductAuthor: 
@@ -578,7 +588,7 @@ PlayerSettings:
   XboxOnePackagingOverridePath: 
   XboxOneAppManifestOverridePath: 
   XboxOnePackageEncryption: 0
-  XboxOnePackageUpdateGranularity: 2
+  XboxOnePackageUpdateGranularity: 0
   XboxOneDescription: 
   XboxOneLanguage:
   - enus

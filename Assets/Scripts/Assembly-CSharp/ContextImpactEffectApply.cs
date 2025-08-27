@@ -1,3 +1,0 @@
-public class ContextImpactEffectApply : ContextImpactEffect
-{
-}
