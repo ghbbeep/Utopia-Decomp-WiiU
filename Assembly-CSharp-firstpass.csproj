@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{93288C01-F9F5-A9B1-145F-71E71612FA1E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_1_2;UNITY_2017_1;UNITY_2017;ENABLE_AUDIO;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_DIRECTOR;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;ENABLE_SPRITE_MASKING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_RMGUI;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_STYLE_SHEETS;PLATFORM_WIIU;UNITY_WIIU;UNITY_WIIU_API;ENABLE_MOVIES;ENABLE_CLOTH;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_AUDIO_MANAGER_BASED_SCHEDULING;ENABLE_NETWORK;ENABLE_UNET;ENABLE_UNITYWEBREQUEST;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>F:/Programs/Unity/Editor/Data/PlaybackEngines/WiiUPlayer/Tools/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>F:/Programs/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\EventSystemChecker.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\ForcedReset.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\AxisTouchButton.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\ButtonHandler.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\Joystick.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\MobileControlRig.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\TiltInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\TouchPad.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\VirtualInput.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\AAMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Antialiasing.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Bloom.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomAndFlares.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomOptimized.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BloomScreenBlendMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Blur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\BlurOptimized.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\CameraMotionBlur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionCurves.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionLookup.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ColorCorrectionRamp.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ContrastEnhance.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ContrastStretch.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\CreaseShading.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\DepthOfField.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\DepthOfFieldDeprecated.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\EdgeDetection.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Fisheye.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\GlobalFog.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Grayscale.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\HDRBloomMode.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ImageEffectBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ImageEffects.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\LensflareStyle34.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\MotionBlur.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\NoiseAndGrain.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\NoiseAndScratches.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\PostEffectsBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\PostEffectsHelper.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Quads.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenOverlay.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenSpaceAmbientObscurance.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\ScreenSpaceAmbientOcclusion.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\SepiaTone.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\SunShafts.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\TiltShift.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Tonemapping.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Triangles.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\TweakMode34.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Twirl.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\VignetteAndChromaticAberration.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\ImageEffects\Vortex.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\Displace.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\MeshContainer.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\PlanarReflection.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\SpecularLighting.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\Water.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterBase.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterBasic.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterQuality.cs" />
+     <Compile Include="Assets\Plugins\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterTile.cs" />
+     <None Include="Assets\Shader\Unlit-Color.shader" />
+     <None Include="Assets\Shader\SSAOShader.shader" />
+     <None Include="Assets\Resources\UltimateFlareMeshShader.shader" />
+     <None Include="Assets\Shader\DLAA.shader" />
+     <None Include="Assets\Resources\UltimateBrightpassMask.shader" />
+     <None Include="Assets\Resources\UltimateFlareMask.shader" />
+     <None Include="Assets\Shader\Shader.shader" />
+     <None Include="Assets\Resources\Shared.cginc" />
+     <None Include="Assets\Shader\Tonemapper.shader" />
+     <None Include="Assets\Resources\Debug.shader" />
+     <None Include="Assets\Resources\UltimateBloomBokehMisc.shader" />
+     <None Include="Assets\Resources\UltimateFlareSingle.shader" />
+     <None Include="Assets\Shader\Normal-Glossy.shader" />
+     <None Include="Assets\Resources\UltimateBloomMixer.shader" />
+     <None Include="Assets\Shader\Sprites-Default.shader" />
+     <None Include="Assets\Shader\Unlit-AlphaTest.shader" />
+     <None Include="Assets\Resources\MotionBlurSM2.shader" />
+     <None Include="Assets\Shader\FXAAPreset3.shader" />
+     <None Include="Assets\Shader\StandardSpecular.shader" />
+     <None Include="Assets\Shader\SimpleClear.shader" />
+     <None Include="Assets\Shader\Lightmap-Diffuse.shader" />
+     <None Include="Assets\Resources\UltimateFlareCore.cginc" />
+     <None Include="Assets\Shader\FXWater4Advanced.shader" />
+     <None Include="Assets\Shader\Lightmap-VertexLit.shader" />
+     <None Include="Assets\Shader\FXAAPreset2.shader" />
+     <None Include="Assets\Resources\MotionBlurShared.cginc" />
+     <None Include="Assets\Resources\ReprojectionVectors.shader" />
+     <None Include="Assets\Shader\AlphaTest-Glossy.shader" />
+     <None Include="Assets\Resources\UltimateBrightpassCore.cginc" />
+     <None Include="Assets\Shader\Normal-BumpSpec.shader" />
+     <None Include="Assets\Shader\Alpha-VertexLit.shader" />
+     <None Include="Assets\Shader\Alpha-Diffuse.shader" />
+     <None Include="Assets\Shader\FXAA3Console.shader" />
+     <None Include="Assets\Resources\UltimateBloomCombine.shader" />
+     <None Include="Assets\Shader\AlphaTest-SoftEdgeUnlit.shader" />
+     <None Include="Assets\Shader\DepthOfFieldDX11.shader" />
+     <None Include="Assets\Shader\frag_ao.cginc" />
+     <None Include="Assets\Shader\Particle AddSmooth.shader" />
+     <None Include="Assets\Shader\Reflect-Glossy.shader" />
+     <None Include="Assets\Shader\AlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Resources\UltimateSampling.shader" />
+     <None Include="Assets\Shader\Reflect-VertexLit.shader" />
+     <None Include="Assets\Resources\Dilation.shader" />
+     <None Include="Assets\Resources\UltimateBloomCombineCore.cginc" />
+     <None Include="Assets\Resources\SolidVectors.shader" />
+     <None Include="Assets\Resources\UltimateFlareDouble.shader" />
+     <None Include="Assets\Shader\WaterInclude.cginc" />
+     <None Include="Assets\Resources\UltimateBloomCombineFlareDirt.shader" />
+     <None Include="Assets\Resources\Combine.shader" />
+     <None Include="Assets\Shader\Normal-ParallaxSpec.shader" />
+     <None Include="Assets\Resources\UltimateBokehTexture.shader" />
+     <None Include="Assets\Resources\Depth.shader" />
+     <None Include="Assets\Shader\AlphaTest-Diffuse.shader" />
+     <None Include="Assets\Resources\UltimateBloomShader.shader" />
+     <None Include="Assets\Shader\Skybox.shader" />
+     <None Include="Assets\Shader\Particle Alpha Blend.shader" />
+     <None Include="Assets\Resources\MotionBlurSM3.shader" />
+     <None Include="Assets\Shader\AlphaTest-VertexLit.shader" />
+     <None Include="Assets\Resources\ClothVectors.shader" />
+     <None Include="Assets\Resources\SkinnedVectors.shader" />
+     <None Include="Assets\Shader\SunShaftsComposite.shader" />
+     <None Include="Assets\Shader\NFAA.shader" />
+     <None Include="Assets\Resources\GPUSkinDeform.shader" />
+     <None Include="Assets\Shader\SSAA.shader" />
+     <None Include="Assets\Shader\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Shader\FXAA2.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>F:/Programs/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

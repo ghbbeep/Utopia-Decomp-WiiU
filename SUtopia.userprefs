@@ -1,0 +1,50 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NewBehaviourScript.cs">
+    <Files>
+      <File FileName="Assets\Resources\UltimateBloomBokehMisc.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateBloomCombine.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateBloomCombineFlareDirt.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateBokehTexture.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateBloomMixer.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateBloomShader.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateFlareDouble.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateFlareMask.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateFlareMeshShader.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateFlareSingle.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateSampling.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\UltimateBrightpassMask.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\SunShaftsComposite.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Depth.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\DepthOfFieldDX11.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\DepthOfFieldScatter.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\DLAA.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\FXAA2.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\FXAA3Console.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\FXAAPreset2.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\FXAAPreset3.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\FXWater4Advanced.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\NFAA.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\SimpleClear.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\SSAA.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\SSAOShader.shader" Line="1" Column="1" />
+      <File FileName="Assets\Shader\Tonemapper.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\ClothVectors.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Combine.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\Dilation.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\GPUSkinDeform.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\MotionBlurSM2.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\MotionBlurSM3.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\ReprojectionVectors.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\SkinnedVectors.shader" Line="1" Column="1" />
+      <File FileName="Assets\Resources\SolidVectors.shader" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\Sonic\CullingObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Assembly-CSharp\Sonic\CullingHandler.cs" Line="1" Column="1" />
+      <File FileName="Assets\NewBehaviourScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

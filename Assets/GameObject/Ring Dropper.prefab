@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1874342884737044
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - 4: {fileID: 4399402962524184}
+  - 114: {fileID: 114369462423528249}
+  m_Layer: 0
+  m_Name: Ring Dropper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4399402962524184
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874342884737044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.25, y: 1, z: 18.75}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114369462423528249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874342884737044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2ab28da3b4306f1cfc710c4bd51ce29, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _ringPrefab: {fileID: 114158253897295573, guid: 1b2ab7f3861b3954299614990af687fe, type: 2}
+  _dropTimeBuffer: 0.02
+  _startingRings: 10
+  _inheritVelocity: 0
+  _dropSpeed: 10
+  _dropAngle: 45
+  _effects:
+  - _threshold: 0
+    _effect:
+      _name: Ring Drop A
+      _spawnMethod: 2
+      _effectObject: {fileID: 114530057161392549, guid: f52022dc96dae2d4a96b32a3f7cf0f16, type: 2}
+      _effectSource: {fileID: 4399402962524184}
+      _offsetPosition: {x: 0, y: 0.5, z: 0}
+      _offsetRotation: {x: 0, y: 0, z: 0}
+  - _threshold: 20
+    _effect:
+      _name: Ring Drop B
+      _spawnMethod: 2
+      _effectObject: {fileID: 114273984130865708, guid: 9797fe7c846aedb48bfb6ac2e19cd783, type: 2}
+      _effectSource: {fileID: 4399402962524184}
+      _offsetPosition: {x: 0, y: 0.5, z: 0}
+      _offsetRotation: {x: 0, y: 0, z: 0}
+  - _threshold: 40
+    _effect:
+      _name: Ring Drop C
+      _spawnMethod: 2
+      _effectObject: {fileID: 114944567630751660, guid: a30bddd78c77a3a45a778c0309d85afd, type: 2}
+      _effectSource: {fileID: 4399402962524184}
+      _offsetPosition: {x: 0, y: 0, z: 0}
+      _offsetRotation: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1874342884737044}
+  m_IsPrefabParent: 1
